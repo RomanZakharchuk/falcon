@@ -282,14 +282,31 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
   .container {
     padding-left: 0;
     padding-right: 0;
   }
 
+  .header-container {
+    padding-top: 12px;
+  }
+
+  .main-container {
+    padding-top: 0;
+  }
+
   .title {
     font-size: 56px;
     line-height: 53px;
+    margin-top: 10px;
   }
 
   .main-text {
@@ -322,7 +339,7 @@ body {
   }
 
   .main-slider-hidden {
-    margin-bottom: 100px;
+    margin-bottom: 25px;
   }
 
   .holder-footer-svg svg {
@@ -331,14 +348,9 @@ body {
 }
 
 @media screen and (max-width: 425px) {
-  .header {
-    display: none;
-  }
-
   .title {
     font-size: 26px;
     line-height: 30px;
-    margin-top: 125px;
   }
 
   .main-text {
