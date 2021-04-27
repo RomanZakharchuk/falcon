@@ -3,8 +3,25 @@
 $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
     center: true,
-    items: 2,
     loop: true,
-    margin: 15,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 2,
+        margin: 60,
+      },
+      360: {
+        items: 2,
+        margin: 60,
+      },
+      500: {
+        items: 3,
+        margin: 60,
+      },
+      700: {
+        items: 4,
+        margin: 60
+      }
+    }
   });
 });
