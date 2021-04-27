@@ -300,12 +300,17 @@ body {
     flex-direction: column;
 
     .networks {
+      margin-right: 0;
       margin-bottom: 20px;
     }
 
     .footer-number:not(:last-child) {
       margin-bottom: 20px;
     }
+  }
+
+  .footer-number {
+    margin-right: 0;
   }
 
   .main-slider {
