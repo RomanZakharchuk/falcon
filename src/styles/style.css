@@ -159,6 +159,10 @@ body {
           clip-path: polygon(25% 0%, 75% 0%, 100% 35%, 100% 37%, 0 37%, 0 35%);
 }
 
+.slider-holder a {
+  text-decoration: none;
+}
+
 .wrapper-price {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -363,6 +367,9 @@ body {
   }
   .main-slider-hidden {
     margin-bottom: 100px;
+  }
+  .holder-footer-svg svg {
+    vertical-align: middle;
   }
 }
 

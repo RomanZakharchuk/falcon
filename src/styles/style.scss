@@ -125,6 +125,10 @@ body {
     right: -8px;
     clip-path: polygon(25% 0%, 75% 0%, 100% 35%, 100% 37%, 0 37%, 0 35%);
   }
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .wrapper-price {
@@ -319,6 +323,10 @@ body {
 
   .main-slider-hidden {
     margin-bottom: 100px;
+  }
+
+  .holder-footer-svg svg {
+    vertical-align: middle;
   }
 }
 
