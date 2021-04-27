@@ -262,3 +262,67 @@ body {
   text-decoration: none;
   margin-right: 24px;
 }
+
+@media screen and (min-width: 769px) {
+  .main-slider-hidden {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .slider-holder:not(:last-child) {
+    margin-right: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 56px;
+    line-height: 53px;
+  }
+
+  .main-text {
+    font-size: 14px;
+  }
+
+  .slider-holder:not(:last-child) {
+    margin-right: 12px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+
+    .networks {
+      margin-bottom: 20px;
+    }
+
+    .footer-number:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+
+  .main-slider {
+    display: none !important;
+  }
+
+  .main-slider-hidden {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    display: none;
+  }
+
+  .title {
+    font-size: 26px;
+    line-height: 30px;
+    margin-top: 125px;
+  }
+
+  .main-text {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
